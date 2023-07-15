@@ -3,7 +3,7 @@ import { AuthStrategies } from './auth-strategies'
 
 export const environment = {
   production: true,
-  serverUrl: window["env"]["serverUrl"] || null,
+  serverUrl: window["envMpAYvc8QMp"]["serverUrl"] || null,
   conceptTables: CONCEPT_TABLES,
   authStrategy: AuthStrategies.SMTP
 };
